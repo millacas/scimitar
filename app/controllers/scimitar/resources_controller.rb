@@ -25,7 +25,7 @@ module Scimitar
   # instead as it does most of the mapping, persistence and error handling work
   # for you.
   #
-  class ResourcesController < ApplicationController
+  class ResourcesController < Scimitar::ApplicationController
 
     # GET (list)
     #
